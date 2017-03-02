@@ -1,0 +1,1 @@
+app.directive("tooltip",function(){return{restrict:"AC",link:function(t,i,o){$(i).hover(function(){$(i).tooltip("show")},function(){$(i).tooltip("hide")})}}});

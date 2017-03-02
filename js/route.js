@@ -1,0 +1,1 @@
+app.config(["$stateProvider","$urlRouterProvider",function(l,r){r.otherwise("/"),l.state("landing",{url:"/",templateUrl:"views/landing.html",controller:"landingController",controllerAs:"landing"})}]);
